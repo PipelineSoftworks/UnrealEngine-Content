@@ -1,0 +1,12 @@
+# Unreal downloads external resources into this directory,
+# explicitly exclude everything and only include changes made.
+
+# 1. Ignore everything strictly at the root level
+/*
+
+# 2. Allow the .gitignore file itself
+!.gitignore
+
+# 3. Allow the custom files
+!/Splash/EdSplash.bmp
+!/Splash/Splash.bmp
